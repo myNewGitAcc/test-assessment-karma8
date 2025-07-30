@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>News</title>
+    <link rel="stylesheet" href="news.css" />
+    <script src="/scripts/loadMetatags.js"></script>
+  </head>
+  <body>
+    <main role="main">
+      <section class="firstRow" aria-labelledby="mainNewsHeading">
+        <h1 id="mainNewsHeading" class="visually-hidden" style="color: transparent;">Top News</h1>
+
+        <!-- Template for main article -->
+        <template id="main-article-template">
+          <article
+            class="main-article"
+            role="article"
+            aria-labelledby="mainArticleTitle"
+          >
+            <div class="title-wrapper">
+              <h2 class="title" id="mainArticleTitle"></h2>
+              <div class="article-buttons">
+                <a
+                  href="#"
+                  class="article-link"
+                  role="link"
+                  aria-label="Explore article"
+                  >Explore</a
+                >
+                <a
+                  href="#"
+                  class="article-link"
+                  role="link"
+                  aria-label="Go to article"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-hidden="true"
+                  >
+                    <g clip-path="url(#clip0_3_54)">
+                      <path
+                        d="M12.1084 15.1167L17.1667 10.0583L12.1084 5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M3.00002 10.0583L17.025 10.0583"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_3_54">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </template>
+
+        <article id="main-article" aria-label="Main article"></article>
+
+        <!-- Template for secondary articles -->
+        <template id="secondary-article-template">
+          <article class="secondary-article-wrapper" role="article">
+            <a href="#" aria-label="Read article">
+              <h3 class="title"></h3>
+              <p class="description-secondary"></p>
+              <span class="tags" aria-hidden="true"></span>
+            </a>
+          </article>
+        </template>
+
+        <section id="secondary-articles" aria-label="More stories"></section>
+      </section>
+
+      <!-- Template for primary articles -->
+      <template id="primary-article-template">
+        <article class="primary-article-wrapper" role="article">
+          <a href="#" aria-label="Read full article">
+            <img src="" alt="" />
+            <div>
+              <h2 class="title"></h2>
+              <p class="description-primary"></p>
+              <span class="tags" aria-hidden="true"></span>
+            </div>
+          </a>
+        </article>
+      </template>
+
+      <section
+        class="primary-articles-wrapper"
+        aria-labelledby="latestNewsHeading"
+      >
+        <h2 id="latestNewsHeading">Latest news</h2>
+        <div id="primary-articles"></div>
+        <button id="readMore" aria-label="Load more news articles">
+          Read more
+        </button>
+      </section>
+    </main>
+
+    <script src="scripts/loadHeader.js"></script>
+    <script async src="scripts/processNews.js"></script>
+  </body>
+</html>
