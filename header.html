@@ -1,0 +1,54 @@
+<header>
+  <a href="/">
+    <img id="logo" src="/assets/icons/Logotype.svg" alt="Logo" />
+  </a>
+  <nav>
+    <ul class="navItemsList">
+      <li><a href="news.html">News</a></li>
+      <li><a href="charts.html">Charts</a></li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navItemsList {
+    display: flex;
+    gap: 8px;
+
+    li {
+      list-style: none;
+      background-color: lightgray;
+      border-radius: 12px;
+      color: gray;
+      cursor: pointer;
+
+      &.active {
+        border: 1px solid black;
+        color: black;
+      }
+
+      a {
+        all: unset;
+        display: block;
+        padding: 16px;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .navItemsList {
+      padding: 0;
+    }
+  }
+</style>
