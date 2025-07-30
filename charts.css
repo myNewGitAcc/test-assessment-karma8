@@ -14,7 +14,7 @@ main {
   gap: 24px;
 }
 
-.chart-info .title {
+.chart-info-container .title {
   color: gray;
   font-size: 16px;
 }
