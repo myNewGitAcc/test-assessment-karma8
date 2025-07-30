@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Charts</title>
+    <link rel="stylesheet" href="charts.css" />
+    <script src="/scripts/loadMetatags.js"></script>
+  </head>
+  <body>
+    <main role="main">
+      <section class="page-info" aria-labelledby="chartsHeading">
+        <h1 id="chartsHeading">Charts</h1>
+
+        <div
+          class="chart-info-container"
+          role="region"
+          aria-label="Current usage summaries"
+        >
+          <div>
+            <h2 class="title">Chart 1</h2>
+            <div class="volume red" aria-label="Chart 1 usage">136 GB</div>
+          </div>
+          <div>
+            <h2 class="title">Chart 2</h2>
+            <div class="volume blue" aria-label="Chart 2 usage">42 GB</div>
+          </div>
+        </div>
+      </section>
+
+      <nav class="month-nav-container" aria-label="Monthly navigation">
+        <button
+          class="nav-arrow"
+          id="scrollLeft"
+          aria-label="Scroll to previous months"
+        >
+          <img
+            src="./assets/icons/IconArrowLeftWhite.svg"
+            alt=""
+            aria-hidden="true"
+          />
+        </button>
+
+        <div class="month-list-wrapper">
+          <div
+            class="month-list"
+            id="monthList"
+            role="tablist"
+            aria-label="Month list"
+          ></div>
+        </div>
+
+        <button
+          class="nav-arrow"
+          id="scrollRight"
+          aria-label="Scroll to next months"
+        >
+          <img
+            src="./assets/icons/IconArrowRightWhite.svg"
+            alt=""
+            aria-hidden="true"
+          />
+        </button>
+      </nav>
+
+      <section aria-labelledby="usageChartHeading">
+        <h2 id="usageChartHeading" class="visually-hidden">
+          Daily Usage Chart
+        </h2>
+        <figure role="figure" aria-label="Chart showing daily usage data">
+          <canvas
+            id="dailyUsageChart"
+            aria-describedby="usageChartHeading"
+          ></canvas>
+        </figure>
+      </section>
+    </main>
+
+    <script src="scripts/loadHeader.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js"
+      integrity="sha256-Lye89HGy1p3XhJT24hcvsoRw64Q4IOL5a7hdOflhjTA="
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/drawChart.js" type="module"></script>
+    <script src="scripts/populateMonthButtons.js" type="module"></script>
+  </body>
+</html>

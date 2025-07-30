@@ -1,0 +1,98 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.page-info {
+  align-self: flex-start;
+}
+
+.chart-info-container {
+  display: flex;
+  gap: 24px;
+}
+
+.chart-info .title {
+  color: gray;
+  font-size: 16px;
+}
+
+.volume {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+@media (min-width: 1060px) {
+  /* prevent setting too big height value from the lib */
+  #dailyUsageChart {
+    height: 500px !important;
+  }
+}
+
+#chartjs-tooltips div {
+  font-family: sans-serif;
+  font-size: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.month-nav-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  font-family: sans-serif;
+  max-width: 100%;
+}
+
+.nav-arrow {
+  background-color: black;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  height: 38px;
+}
+
+.month-list-wrapper {
+  overflow: hidden;
+  flex: 1;
+}
+
+.month-list {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.month-list::-webkit-scrollbar {
+  display: none;
+}
+
+.month-btn {
+  flex: 0 0 auto;
+  padding: 6px 12px;
+  border: none;
+  background: lightgray;
+  color: gray;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.month-btn.active {
+  border: 1px solid black;
+  color: black;
+}
