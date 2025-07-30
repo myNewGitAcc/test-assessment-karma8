@@ -119,7 +119,7 @@ const init = async () => {
           article.content;
         el.querySelector('.tags').textContent =
           `${timeAgo(article.timestamp)} | ${article.tag}`;
-        el.href = article.url;
+        el.querySelector('a').href = article.url;
       }),
       '#secondary-articles'
     );
@@ -135,7 +135,7 @@ const init = async () => {
             article.content;
           el.querySelector('.tags').textContent =
             `${timeAgo(article.timestamp)} | ${article.tag}`;
-          el.href = article.url;
+          el.querySelector('a').href = article.url;
         }),
         '#primary-articles'
       );
