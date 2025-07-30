@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum magna minim.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+      "url": "./news.html",
+      "timestamp": "2025-07-28T09:10:44Z",
+      "tag": "Climate"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum magna minim.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+      "url": "./news.html",
+      "timestamp": "2025-07-28T10:33:33Z",
+      "tag": "Asia"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum magna minim.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+      "url": "./news.html",
+      "timestamp": "2025-07-28T11:01:01Z",
+      "tag": "US & Canada"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum magna minim.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+      "url": "./news.html",
+      "timestamp": "2025-07-28T12:59:59Z",
+      "tag": "Climate"
+    }
+  ]
+}

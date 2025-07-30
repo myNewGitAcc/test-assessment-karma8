@@ -1,0 +1,148 @@
+{
+  "pagination": {
+    "currentPage": 1,
+    "totalPages": 2
+  },
+  "main": {
+    "title": "Matt Gaetz quits House after he is picked by Trump for attorney general role",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+    "url": "./news.html",
+    "img": "1.png",
+    "timestamp": "2025-07-28T00:12:34Z",
+    "tag": ""
+  },
+  "pages": {
+    "1": [
+      {
+        "title": "Inside the secret summit that tried to stop deadly rap wars",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "2.png",
+        "timestamp": "2025-07-28T01:45:00Z",
+        "tag": "Culture"
+      },
+      {
+        "title": "Unemployment rises as pay growth slows again",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "3.png",
+        "timestamp": "2025-07-28T02:30:22Z",
+        "tag": "London"
+      },
+      {
+        "title": "When horror hits China, the first instinct is shut it down",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "4.png",
+        "timestamp": "2025-07-28T03:15:10Z",
+        "tag": "Asia"
+      },
+      {
+        "title": "Zendaya: Working with Tom Holland is 'second nature'",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "5.png",
+        "timestamp": "2025-07-28T04:50:45Z",
+        "tag": "Culture"
+      },
+      {
+        "title": "Cheap fix floated for plane vapour's climate damage",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "6.png",
+        "timestamp": "2025-07-28T05:05:05Z",
+        "tag": "Climate"
+      },
+      {
+        "title": "Does Kane's criticism expose England cracks?",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "7.png",
+        "timestamp": "2025-07-28T06:20:18Z",
+        "tag": "Sport"
+      },
+      {
+        "title": "Some players 'lucky enough' to face Pumas - Farrell",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "8.png",
+        "timestamp": "2025-07-28T07:55:55Z",
+        "tag": "Sport"
+      },
+      {
+        "title": "How Japan's youngest CEO transformed Hello Kitty",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "9.png",
+        "timestamp": "2025-07-28T08:40:00Z",
+        "tag": "Asia"
+      }
+    ],
+    "2": [
+      {
+        "title": "Inside the secret summit that tried to stop deadly rap wars",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "2.png",
+        "timestamp": "2025-07-28T01:45:00Z",
+        "tag": "Culture"
+      },
+      {
+        "title": "Unemployment rises as pay growth slows again",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "3.png",
+        "timestamp": "2025-07-28T02:30:22Z",
+        "tag": "London"
+      },
+      {
+        "title": "When horror hits China, the first instinct is shut it down",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "4.png",
+        "timestamp": "2025-07-28T03:15:10Z",
+        "tag": "Asia"
+      },
+      {
+        "title": "Zendaya: Working with Tom Holland is 'second nature'",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "5.png",
+        "timestamp": "2025-07-28T04:50:45Z",
+        "tag": "Culture"
+      },
+      {
+        "title": "Cheap fix floated for plane vapour's climate damage",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "6.png",
+        "timestamp": "2025-07-28T05:05:05Z",
+        "tag": "Climate"
+      },
+      {
+        "title": "Does Kane's criticism expose England cracks?",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "7.png",
+        "timestamp": "2025-07-28T06:20:18Z",
+        "tag": "Sport"
+      },
+      {
+        "title": "Some players 'lucky enough' to face Pumas - Farrell",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "8.png",
+        "timestamp": "2025-07-28T07:55:55Z",
+        "tag": "Sport"
+      },
+      {
+        "title": "How Japan's youngest CEO transformed Hello Kitty",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nonummy blandit rebum zzril nisl sea feugiat ipsum dignissim sanctus. Vel vero adipiscing luptatum laboris tempor consetetur lorem. Wisi odio lorem.\n\nSanctus ipsum luptatum gubergren sunt anim luptatum stet. Exerci vero doming amet eleifend illum, feugiat sadipscing molestie cupiditat aute dignissim aliquid dolore quis suscipit, commodo eros feugait nam luptatum augue facer aliquam tempor dolores. Soluta esse quis.",
+        "url": "./news.html",
+        "img": "9.png",
+        "timestamp": "2025-07-28T08:40:00Z",
+        "tag": "Asia"
+      }
+    ]
+  }
+}
