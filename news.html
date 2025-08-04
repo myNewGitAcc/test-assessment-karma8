@@ -3,8 +3,8 @@
   <head>
     <title>News</title>
     <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/modern-css-reset@1.4.0/dist/reset.min.css"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-css-reset@1.4.0/dist/reset.min.css"
     />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="news.css" />
@@ -16,7 +16,18 @@
 
       document.head.prepend(base);
     </script>
-    <script src="scripts/loadMetatags.js"></script>
+    <script async type="module">
+      import { getBaseUrl } from './utils/getBaseUrl.js';
+
+      const res = await fetch('data/news/primary.json');
+      const data = await res.json();
+
+      const link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = `${getBaseUrl()}data/news/images/${data.main.img}`;
+      document.head.appendChild(link);
+    </script>
   </head>
   <body>
     <main role="main">
@@ -132,6 +143,7 @@
       </section>
     </main>
 
+    <script src="scripts/loadMetatags.js"></script>
     <script src="scripts/loadHeader.js"></script>
     <script async src="scripts/processNews.js"></script>
   </body>
