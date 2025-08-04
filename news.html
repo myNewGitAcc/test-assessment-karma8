@@ -8,13 +8,26 @@
     />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="news.css" />
-    <script type="module" src="scripts/handleBaseTag.js"></script>
+    <script type="module">
+      import { getBaseUrl } from './utils/getBaseUrl.js';
+
+      const base = document.createElement('base');
+      base.href = getBaseUrl();
+
+      document.head.prepend(base);
+    </script>
     <script src="/scripts/loadMetatags.js"></script>
   </head>
   <body>
     <main role="main">
       <section class="firstRow" aria-labelledby="mainNewsHeading">
-        <h1 id="mainNewsHeading" class="visually-hidden" style="color: transparent;">Top News</h1>
+        <h1
+          id="mainNewsHeading"
+          class="visually-hidden"
+          style="color: transparent"
+        >
+          Top News
+        </h1>
 
         <!-- Template for main article -->
         <template id="main-article-template">

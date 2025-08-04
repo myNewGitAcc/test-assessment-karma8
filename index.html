@@ -8,7 +8,14 @@
     />
     <link rel="stylesheet" href="index.css" />
     <title>Redirecting...</title>
-    <script type="module" src="scripts/handleBaseTag.js"></script>
+    <script type="module">
+      import { getBaseUrl } from './utils/getBaseUrl.js';
+
+      const base = document.createElement('base');
+      base.href = getBaseUrl();
+
+      document.head.prepend(base);
+    </script>
     <script src="/scripts/loadMetatags.js"></script>
   </head>
   <body>
@@ -16,7 +23,7 @@
       import { getBaseUrl } from './utils/getBaseUrl.js';
 
       window.addEventListener('load', () => {
-        window.location.href = `${getBaseUrl()}news.html`;
+        window.location.href = 'news.html';
       });
     </script>
   </body>
