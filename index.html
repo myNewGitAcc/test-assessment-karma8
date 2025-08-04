@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="index.css" />
     <title>Redirecting...</title>
-    <script src="scripts/handleBaseTag.js"></script>
+    <script type="module" src="scripts/handleBaseTag.js"></script>
     <script src="/scripts/loadMetatags.js"></script>
   </head>
   <body>
     <script>
+      import { getBaseUrl } from './utils/getBaseUrl.js';
+
       window.addEventListener('load', () => {
-        window.location.href = '/news.html';
+        window.location.href = `${getBaseUrl()}news.html`;
       });
     </script>
   </body>

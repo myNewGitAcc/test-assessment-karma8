@@ -1,8 +1,6 @@
-const base = document.createElement('base');
-base.href = '/';
+import {getBaseUrl} from "../utils/getBaseUrl.js";
 
-if (location.hostname === 'mynewgitacc.github.io') {
-  base.href = '/test-assessment-karma8/';
-}
+const base = document.createElement('base');
+base.href = getBaseUrl();
 
 document.head.prepend(base);
